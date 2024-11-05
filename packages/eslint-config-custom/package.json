@@ -4,9 +4,7 @@
   "description": "Custom configuration for ESLint combine with prettier",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "pr0m3th3usEx (Thomas Michel)",
   "license": "MIT",
