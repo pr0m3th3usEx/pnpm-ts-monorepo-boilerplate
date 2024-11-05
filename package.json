@@ -1,0 +1,29 @@
+{
+  "name": "pnpm-ts-monorepo-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for your typescript monorepo projects using pnpm and Turborepo",
+  "keywords": ["boilerplate", "typescript", "turborepo", "monorepo"],
+  "author": "pr0m3th3usEx (Thomas Michel)",
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.12.0",
+    "eslint": "^9.11.1",
+    "eslint-config-custom": "*",
+    "prettier": "^3.2.5",
+    "prettier-config-custom": "*",
+    "turbo": "^2.1.3",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "node": ">=18"
+  }
+}
